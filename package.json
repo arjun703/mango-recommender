@@ -1,0 +1,35 @@
+{
+  "name": "manga-recommender",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:setup": "node src/db-setup/index.ts"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@fontsource/roboto": "^5.1.0",
+    "@mui/icons-material": "^6.1.2",
+    "@mui/joy": "^5.0.0-beta.48",
+    "@mui/material": "^6.1.2",
+    "@reduxjs/toolkit": "^2.2.7",
+    "axios": "^1.7.7",
+    "mysql2": "^3.11.3",
+    "next": "14.2.14",
+    "openai": "^4.67.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "react-redux": "^9.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
