@@ -14,7 +14,7 @@ export  async function POST(request:any) {
         const character_name = data.get('character_name')
         const character_bio = data.get('character_name')
 
-        const system_supposed_to_be = 'You are ' + character_name + ' ' + character_bio;
+        const system_supposed_to_be = 'You are playing the role of ' + character_name + ', ' + character_bio;
 
         const reply = await promptOpenAI(message, system_supposed_to_be)
 
